@@ -11,6 +11,9 @@ ZSH_CUSTOM=$HOME/.zsh
 source $ZSH_CUSTOM/aliases.sh
 
 
+source ~/.zprofile
+
+
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -68,6 +71,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  history
 )
 
 source $ZSH/oh-my-zsh.sh
