@@ -1,3 +1,7 @@
+alias tim="cd ~"
+alias rez="source ~/.zshrc"
+alias dev="cd ~/dev"
+
 # Access dotfiles repo
 alias home="git --work-tree=$HOME --git-dir=$HOME/.dotfiles/"
 
