@@ -14,4 +14,5 @@ $ home init .dotfiles
 $ home remote add origin https://github.com/timpetri/dotfiles
 $ home fetch
 $ home checkout master
+$ home config --local status.showUntrackedFiles no
 ```
