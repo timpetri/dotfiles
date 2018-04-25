@@ -1,13 +1,11 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-
 ZSH_CUSTOM=$HOME/.zsh
 ZSH_THEME="robbyrussell"
 
 source $ZSH_CUSTOM/aliases.sh
 source $ZSH/oh-my-zsh.sh
-
 
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
@@ -19,6 +17,13 @@ COMPLETION_WAITING_DOTS="true"
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
+
+# Pyenv-virtualenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+# Development variables
+source $HOME/.zprofile-vs
 
 plugins=(
   git

@@ -1,6 +1,7 @@
 alias tim="cd ~"
 alias rez="source ~/.zshrc"
 alias dev="cd ~/dev"
+alias s='open -a "Sublime Text"'
 
 # Access dotfiles repo
 alias home="git --work-tree=$HOME --git-dir=$HOME/.dotfiles/"
