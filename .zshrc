@@ -25,6 +25,9 @@ eval "$(pyenv virtualenv-init -)"
 # Development variables
 source $HOME/.zprofile-vs
 
+# Autosuggestions (installed via brew)
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 plugins=(
   git
   history
