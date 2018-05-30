@@ -1,0 +1,4 @@
+[user]
+	email = tim.a.petri@gmail.com
+[core]
+	excludesfile = /Users/timpetri/.gitignore_global
